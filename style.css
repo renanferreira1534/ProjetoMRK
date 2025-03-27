@@ -1,0 +1,65 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(104, 104, 104);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{ /*cor apos passar o mause em cima*/
+    color: white;
+    transform: scale(1.05); /*zoom da letra*/
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(58, 58, 58);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{ /*efeito no botão*/ 
+    box-shadow: 0px 0px 8px #fff;
+} 
