@@ -152,3 +152,30 @@ header nav ul li{
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #fff;
 }
+
+nav.menu-lateral{
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    padding: 40px 0 40px 1%;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i{
+    color:dimgray;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu a{
+    color: gray;
+}
