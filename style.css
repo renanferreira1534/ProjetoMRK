@@ -178,4 +178,8 @@ ul{
 
 ul li.item-menu a{
     color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    /*  */
 }
