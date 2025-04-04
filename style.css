@@ -8,7 +8,7 @@
 
 body{
     background-color: rgb(104, 104, 104);
-    height: 100vh;
+    height: 400vh; /*rolagem do mause pra baixo*/
 }
 
 .interface{
@@ -154,10 +154,19 @@ header nav ul li{
 }
 
 nav.menu-lateral{
-    width: 300px;
+    width: 80px;
     height: 100%;
     background-color: #fff;
     padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 rgb(228, 104, 104); /*linha externa do meu lateral*/
+
+   
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-latera:hover{
+    width: 300px;
 }
 
 .btn-expandir{
@@ -176,10 +185,30 @@ ul{
     list-style-type: none;
 }
 
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.item-menu:hover{
+    background: rgb(228, 104, 104); /*cor ao passar o mause em cima dos itns do menu lateral*/
+}
+
+
 ul li.item-menu a{
     color: gray;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 4%;
-    /*  */
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 48px;
 }
+
+ul li.item-menu a .txt-link{
+    margin-left: 48px;
+}
+
+ul li.item-menu a .icon{
+    font-size: 30px;
+}
+
